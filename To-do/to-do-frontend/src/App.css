@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(55, 40, 73) !important;
+}
+
+#root {
+    font-family: Calibri, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(55, 40, 73);
+    color: rgb(230, 226, 234);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.login {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.login p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.mantine-TextInput-root {
+    text-align: left;
+    padding-bottom:10px;
+}
+
+.mantine-TextInput-label {
+    color:rgb(230, 226, 234);
+}
+
+.name {
+    padding: 30px;
+    font-size: 40px;
+    margin: auto;
+    padding-right: 20px;
+}
+
+.signin {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.signin p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.mantine-Button-root {
+    margin-bottom: 10 px;
+}
+
+.mantine-Alert-root {
+    background-color: rgb(55, 40, 73);
+    color: red;
+    text-align: left;
+}
+
+.mantine-Alert-message {
+    color: red;
+    font-family: Calibri;
+}
+
+.mantine-Alert-wrapper {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.logout {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.logout .mantine-Button-root {
+    margin: 15px;
+}
+
+.mantine-Checkbox-root {
+    padding: 10px;
+}
+
+.mantine-Checkbox-label {
+    color:rgb(230, 226, 234);
+}
+.myCheckbox {
+    width: 300px;
+}
+
+.list {
+    list-style-type: none;
+    display: table;
+    margin: auto; 
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainLook {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+.createTask {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:  25px;
+}
+
+.createTask .mantine-Button-root {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.createTask .mantine-TextInput-root {
+    width: 300px;
+}
+
+.editPart {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.editPart .mantine-Button-root {
+    margin: 0;
+    margin-top: 24.5px;
+}
+
+.editPart .mantine-TextInput-root {
+    width: 200px;
+}
+
+.addButtons {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.but {
+  margin: 5px;
+}
+  
